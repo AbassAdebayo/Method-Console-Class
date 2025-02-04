@@ -42,27 +42,53 @@ using Method_Class;
 //
 // Console.WriteLine(SumNumbers(2, 2, 3, 10, 15));
 
-Shape calc = new Shape();
+// Shape calc = new Shape();
+//
+// double length = 4.5;
+// double width = 10;
+//
+// Console.WriteLine(calc.CalculateAreaOfRectangle(length, width));
+//
+// Person person = new Person();
+//
+//
+// Console.Write("Enter firstName: ");
+// string firstName = Console.ReadLine();
+//
+// Console.Write("Enter lastName: ");
+// string lastName = Console.ReadLine();
+//
+// Console.Write("Enter age: ");
+// int age = Convert.ToInt32(Console.ReadLine());
+//
+// Console.Write("Enter gender: ");
+// string gender = Console.ReadLine();
+//
+// Console.WriteLine(person.PersonalData(firstName, lastName, age, gender));
 
-double length = 4.5;
-double width = 10;
+// Console.Write("Enter words you want to check their indexes: ");
+// string input = Console.ReadLine();
+//
+// string lettersToLower = input.ToLower();
+//
+// ArrayMethods indexOfLetters = new ArrayMethods();
+//
+// indexOfLetters.IndexOfLetters(lettersToLower);
 
-Console.WriteLine(calc.CalculateAreaOfRectangle(length, width));
+// ArrayMethods printMatrix = new ArrayMethods();
+//
+// Console.Write("Enter the numbers of rows: ");
+// int rows = Convert.ToInt32(Console.ReadLine());
+//
+// Console.Write("Enter the numbers of columns: ");
+// int cols = Convert.ToInt32(Console.ReadLine());
+//
+// int [,] matrix = new int[rows, cols];
+//
+// printMatrix.PrintMatrix(matrix, rows, cols);
 
-Person person = new Person();
+Palindrome palindrome = new Palindrome();
 
 
-Console.Write("Enter firstName: ");
-string firstName = Console.ReadLine();
 
-Console.Write("Enter lastName: ");
-string lastName = Console.ReadLine();
-
-Console.Write("Enter age: ");
-int age = Convert.ToInt32(Console.ReadLine());
-
-Console.Write("Enter gender: ");
-string gender = Console.ReadLine();
-
-Console.WriteLine(person.PersonalData(firstName, lastName, age, gender));
-
+Console.Write($"isPalindrome => {palindrome.IsPalindrome($"A man, a plan, a canal, Panama!")}");
